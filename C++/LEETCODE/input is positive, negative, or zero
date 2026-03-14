@@ -1,0 +1,37 @@
+Positive and Negative
+Write a program to check whether the given number as input is positive, negative, or zero.
+
+Sample 1:
+Input
+Output
+20  
+Positive  
+Sample 2:
+Input
+Output
+0
+Zero
+Sample 3:
+Input
+Output
+-95
+Negative
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    // Reading the input number
+    cin >> n;
+
+    if (n > 0) {
+        cout << "Positive" << endl;
+    } else if (n < 0) {
+        cout << "Negative" << endl;
+    } else {
+        cout << "Zero" << endl;
+    }
+
+    return 0;
+}
